@@ -24,8 +24,8 @@ This demonstration shows how an attacker could potentially overlay malicious UI 
 
 ### Key Components
 
-- **[app/send-eth/send-eth.css](app/nft/styles.css)**: CSS that hides Privy modals while keeping them interactive
-- **[app/send-eth/page.tsx](app/nft/page.tsx)**: Displays the fake "NFT Claim" modal overlay
+- **[app/nft/styles.css](app/nft/styles.css)**: CSS that hides Privy modals while keeping them interactive
+- **[app/nft/page.tsx](app/nft/page.tsx)**: Displays the fake "NFT Claim" modal overlay
 - **[app/components/SendMaxETH.tsx](app/components/SendMaxETH.tsx)**: Automatically triggers maximum ETH transfer
 
 ### How It Works
