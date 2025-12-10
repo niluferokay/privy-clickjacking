@@ -1,0 +1,26 @@
+/*
+ * Privy Modal Privy modals transparent on this page
+ */
+
+div[role="dialog"][aria-modal="true"] {
+  opacity: 0 !important;
+  pointer-events: auto !important;
+}
+
+/* Target Privy modal containers */
+div[id^="headlessui-portal"] div[role="dialog"] {
+  opacity: 0 !important;
+  pointer-events: auto !important;
+}
+
+/* Make Privy overlay transparent but clickable */
+div[aria-hidden="true"][class*="fixed"] {
+  opacity: 0 !important;
+  pointer-events: auto !important;
+}
+
+/* Make any Privy iframe transparent */
+iframe[src*="auth.privy.io"] {
+  opacity: 0 !important;
+  pointer-events: auto !important;
+}
